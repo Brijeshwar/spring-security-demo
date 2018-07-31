@@ -1,5 +1,6 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <!doctype html>
 <html lang="en">
 
@@ -80,7 +81,9 @@
 									<button type="submit" class="btn btn-success">Login</button>
 								</div>
 							</div>
-	
+							
+							<!-- Manually adding token for CSRF OR use form:form to automatically manage -->
+							<%-- <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" /> --%>
 						</form:form>
 	
 					</div>
