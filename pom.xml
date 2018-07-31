@@ -11,8 +11,12 @@
 
 	<properties>
 		<springframework.version>5.0.2.RELEASE</springframework.version>
+<<<<<<< HEAD
         <springsecurity.version>5.0.2.RELEASE</springsecurity.version>
         
+=======
+
+>>>>>>> 504904aa016a0e191f7144f9e8fd1c90be29e8a3
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
@@ -25,6 +29,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${springframework.version}</version>
 		</dependency>
+<<<<<<< HEAD
 		
 		<!-- Spring Security support -->
 		<!-- spring-security-web and spring-security-config -->
@@ -40,6 +45,9 @@
 			<version>${springsecurity.version}</version>
 		</dependency>
 		
+=======
+
+>>>>>>> 504904aa016a0e191f7144f9e8fd1c90be29e8a3
 		<!-- Servlet, JSP and JSTL support -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
